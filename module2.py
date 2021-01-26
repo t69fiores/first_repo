@@ -99,7 +99,6 @@ import random
 # print(HaNoi.surface)
 
 
-lst = [0 for i in range(8)]
-lst1 = [lst for i in range(5)]
-lst2 = [lst1 for i in range(3)]
-print(lst2)
+lst = [1,2,3,4,5]
+for i in lst:
+    print(i)
